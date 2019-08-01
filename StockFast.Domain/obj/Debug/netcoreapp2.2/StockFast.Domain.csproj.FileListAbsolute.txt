@@ -1,0 +1,9 @@
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.deps.json
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.dll
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.pdb
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csprojAssemblyReference.cache
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csproj.CoreCompileInputs.cache
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfoInputs.cache
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfo.cs
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.dll
+C:\Users\developer\source\repos\StockFast\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.pdb
