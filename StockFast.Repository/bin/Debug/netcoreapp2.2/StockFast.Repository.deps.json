@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "StockFast.Repository/1.0.0": {
+        "dependencies": {
+          "StockFast.Domain": "1.0.0"
+        },
         "runtime": {
           "StockFast.Repository.dll": {}
+        }
+      },
+      "StockFast.Domain/1.0.0": {
+        "runtime": {
+          "StockFast.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "StockFast.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StockFast.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

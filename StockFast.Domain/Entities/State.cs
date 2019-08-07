@@ -4,7 +4,23 @@ using System.Text;
 
 namespace StockFast.Domain.Entities
 {
-    class State
+    public class State : Entity
     {
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string UF { get; set; }
+        public bool Ativo { get; set; }
+        public int CountryId { get; set; }
+
+        public override void Validate()
+        {
+            LimparMensagemValidacao();
+            if (!State.Any())
+                AdicionarCritica("O Estado deve ser preenchido obrigatoriamente");
+        }
+        internal static bool Any()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
