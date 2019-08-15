@@ -58,3 +58,15 @@ C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.csproj.CopyComplete
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.dll
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.pdb
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\bin\Debug\netcoreapp2.2\StockFast.Repository.deps.json
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\bin\Debug\netcoreapp2.2\StockFast.Repository.dll
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\bin\Debug\netcoreapp2.2\StockFast.Repository.pdb
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\bin\Debug\netcoreapp2.2\StockFast.Domain.dll
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\bin\Debug\netcoreapp2.2\StockFast.Domain.pdb
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.csprojAssemblyReference.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.AssemblyInfoInputs.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.AssemblyInfo.cs
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.csproj.CopyComplete
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.dll
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Repository\obj\Debug\netcoreapp2.2\StockFast.Repository.pdb

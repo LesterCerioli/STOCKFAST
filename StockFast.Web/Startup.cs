@@ -28,8 +28,10 @@ namespace StockFast.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             var connectionString = Configuration.GetConnectionString("DT04");
             services.AddDbContext<StockFastContext>(option =>
-                                                       option.UseSqlServer(connectionString,
-                                                                                m => m.MigrationsAssembly("StockFast.Repository"));
+                                                option.UseSqlServer(connectionString,
+                                                                       m => m.MigrationsAssembly("Stockfast.Repository")));
+                                                       
+                                                                                
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>

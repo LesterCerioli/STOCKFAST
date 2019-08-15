@@ -49,3 +49,12 @@ C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfo.cs
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.dll
 C:\Users\Diretoria2018\Documents\Repositorios GIT\StockFast\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.pdb
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.deps.json
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.dll
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.pdb
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csprojAssemblyReference.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfoInputs.cache
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfo.cs
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.dll
+C:\Users\Diretoria2018\source\repos\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.pdb
