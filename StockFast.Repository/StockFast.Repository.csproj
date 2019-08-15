@@ -12,8 +12,4 @@
     <ProjectReference Include="..\StockFast.Domain\StockFast.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Config\" />
-  </ItemGroup>
-
 </Project>

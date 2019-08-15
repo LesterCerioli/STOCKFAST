@@ -1,0 +1,10 @@
+{
+  "Keys": "ValueKey",
+  "DT04": {
+    "DT04Connection": "Data Source=centaurolux.database.windows.net;Initial Catalog=DT04;User ID=startsex;Password=***********";
+  }
+}
+
+
+
+"Server=tcp:centaurolux.database.windows.net,1433;Initial Catalog=DT04;Persist Security Info=False;User ID={startsex};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";

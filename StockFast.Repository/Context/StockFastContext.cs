@@ -1,9 +1,11 @@
 ﻿using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using StockFast.Domain.Entities;
+using StockFast.Repository.Config;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using UserProfile = StockFast.Repository.Config.UserProfile;
 
 namespace StockFast.Repository.Context
 {
@@ -31,6 +33,32 @@ namespace StockFast.Repository.Context
 
         public StockFastContext(DbContextOptions options) : base(options)
         {
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //mapping classes
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new UserProfile());
+            modelBuilder.ApplyConfiguration(new VendaConfiguration());
+            modelBuilder.ApplyConfiguration(new StockInventoryConfiguration());
+            modelBuilder.ApplyConfiguration(new StateConfiguration());
+            modelBuilder.ApplyConfiguration(new ProviderConfiguration());
+            modelBuilder.ApplyConfiguration(new ProfileConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductGroupConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductEntryConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductConfiguration());
+            modelBuilder.ApplyConfiguration(new ProductBrandConfiguration());
+            modelBuilder.ApplyConfiguration(new Meansurement_UnitConfiguration());
+            modelBuilder.ApplyConfiguration(new Local_StorageConfiguration());
+            modelBuilder.ApplyConfiguration(new ItemVendaConfiguration());
+            modelBuilder.ApplyConfiguration(new FormaPagamentoConfiguration());
+            modelBuilder.ApplyConfiguration(new ExitProductConfiguration());
+            modelBuilder.ApplyConfiguration(new CountryConfiguration());
+            modelBuilder.ApplyConfiguration(new CityConfiguration());
+
+
+
+            base.OnModelCreating(modelBuilder);
         }
 
     }
