@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Diretoria2018\\Source\\Repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
       "projectName": "StockFast.Domain",
-      "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj",
+      "projectPath": "C:\\Users\\Diretoria2018\\Source\\Repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
       "packagesPath": "C:\\Users\\Diretoria2018\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Diretoria2018\\Source\\Repos\\STOCKFAST\\StockFast.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

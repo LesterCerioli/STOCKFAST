@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Repository\\StockFast.Repository.csproj": {}
+    "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj": {
+    "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
         "projectName": "StockFast.Domain",
-        "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj",
+        "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
         "packagesPath": "C:\\Users\\Diretoria2018\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Repository\\StockFast.Repository.csproj": {
+    "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Repository\\StockFast.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
         "projectName": "StockFast.Repository",
-        "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Repository\\StockFast.Repository.csproj",
+        "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
         "packagesPath": "C:\\Users\\Diretoria2018\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Repository\\obj\\",
+        "outputPath": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -86,8 +86,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj": {
-                "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\StockFast.Domain\\StockFast.Domain.csproj"
+              "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
+                "projectPath": "C:\\Users\\Diretoria2018\\source\\repos\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj"
               }
             }
           }
@@ -101,6 +101,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
