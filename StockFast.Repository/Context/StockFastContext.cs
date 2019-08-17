@@ -5,7 +5,7 @@ using StockFast.Repository.Config;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using UserProfile = StockFast.Repository.Config.UserProfile;
+using UserProfile = StockFast.Repository.Config.UserProfileConfiguration;
 
 namespace StockFast.Repository.Context
 {

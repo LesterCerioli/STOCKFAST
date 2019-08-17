@@ -1,17 +1,17 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using StockFast.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Metadata.Builders;
+    using StockFast.Domain.Entities;
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
 
-namespace StockFast.Repository.Config
-{
-    public class CityConfiguration : IEntityTypeConfiguration<City>
+    namespace StockFast.Repository.Config
     {
-        public void Configure(EntityTypeBuilder<City> builder)
+        public class CityConfiguration : IEntityTypeConfiguration<City>
         {
-            throw new NotImplementedException();
+            public void Configure(EntityTypeBuilder<City> builder)
+            {
+                throw new NotImplementedException();
+            }
         }
     }
-}
