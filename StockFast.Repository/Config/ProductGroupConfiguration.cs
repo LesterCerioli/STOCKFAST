@@ -11,7 +11,7 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<ProductGroup> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(q => q.Id);
         }
     }
 }

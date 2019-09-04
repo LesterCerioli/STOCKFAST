@@ -11,6 +11,7 @@ namespace StockFast.Domain.Entities
         public int Id { get; set; }
         public DateTime DataVenda { get; set; }
         public int UsuarioId { get; set; }
+        public virtual User User { get; set; }
         public DateTime DataPrevisaoEntrega { get; set; }
         public string CEP { get; set; }
         public string Estado { get; set; }
@@ -20,10 +21,16 @@ namespace StockFast.Domain.Entities
         public int NumeroEndereco { get; set; }
 
         public int FormaPagamentoId { get; set; }
-        public FormaPagamento FormaPagamento { get; set; }
+        public virtual FormaPagamento FormaPagamento { get; set; }
+        public virtual ICollection<ItemVenda> ItemVendas { get; set; }
 
-        public ICollection<ItemVenda> ItensVenda { get; set; }
 
+
+
+        public virtual ICollection<ItemVenda> ItensVenda { get; set; }
+        
+            
+        
         public override void Validate()
         {
             LimparMensagemValidacao();

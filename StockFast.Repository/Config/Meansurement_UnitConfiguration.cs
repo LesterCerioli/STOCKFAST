@@ -11,7 +11,7 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Meansurement_Unit> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(m => m.Id);
         }
     }
 }

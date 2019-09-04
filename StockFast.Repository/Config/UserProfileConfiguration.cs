@@ -11,8 +11,10 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<UserProfile> builder)
         {
-            builder.HasKey(a => a.ProfileId);
-            
+            builder.HasKey(b => b.ProfileId);
+            builder.HasKey(a => a.UserId);
+
+
         }
     }
 }

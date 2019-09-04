@@ -28,7 +28,8 @@ namespace StockFast.Web
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             var connectionString = Configuration.GetConnectionString("DT04");
             services.AddDbContext<StockFastContext>(option =>
-                                                option.UseSqlServer(connectionString,
+                                                option.UseLazyLoadingProxies()
+                                                .UseSqlServer(connectionString,
                                                                        m => m.MigrationsAssembly("Stockfast.Repository")));
                                                        
                                                                                 

@@ -11,7 +11,21 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<State> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(t => t.Id);
+            builder
+                .Property(t => t.Nome)
+                .IsRequired()
+                .HasMaxLength(95)
+                .HasColumnType("nvarchar");
+            builder
+                .Property(t => t.UF)
+                .IsRequired()
+                .HasColumnType("char")
+                .HasMaxLength(2);
+            builder
+                .Property(t => t.Ativo)
+                .IsRequired()
+                .HasColumnType("bool");
         }
     }
 }

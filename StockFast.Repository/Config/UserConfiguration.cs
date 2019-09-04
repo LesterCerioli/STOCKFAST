@@ -11,23 +11,33 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey(u => u.Id);
+            builder.HasKey(a => a.Id);
             builder
-                .Property(u => u.Login)
+                .Property(a => a.Login)
                 .IsRequired()
-                .HasMaxLength(10);
+                .HasMaxLength(20);
             builder
-                .Property(u => u.Senha)
+                .Property(a => a.Senha)
                 .IsRequired()
-                .HasMaxLength(25);
+                .HasMaxLength(20);
             builder
-                .Property(u => u.Nome)
-                .IsRequired()
-                .HasMaxLength(100);
-            builder
-                .Property(u => u.Email)
+                .Property(a => a.Nome)
                 .IsRequired()
                 .HasMaxLength(100);
+            builder
+                .Property(a => a.Email)
+                .IsRequired()
+                .HasMaxLength(95);
+            builder
+                .HasMany(a => a.Vendas)
+                .WithOne(v => v.User);
+            
+
+            
+
+
+
+
         }
     }
 }

@@ -11,51 +11,14 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Venda> builder)
         {
-            builder.HasKey(b => b.Id);
+            builder.HasKey(v => v.Id);
             builder
-                .Property(b => b.DataVenda)
-                .IsRequired();
-            builder.HasKey(b => b.UsuarioId);
-            builder
-                .Property(b => b.DataPrevisaoEntrega)
-                .IsRequired();
-
-            builder
-                .Property(b => b.CEP)
+                .Property(v => v.DataPrevisaoEntrega)
                 .IsRequired()
-                .HasMaxLength(15);
-
-            builder
-                .Property(b => b.Estado)
-                .IsRequired()
-                .HasMaxLength(2);
-
-            builder
-                .Property(b => b.Cidade)
-                .IsRequired()
-                .HasMaxLength(45);
-
-            builder
-                .Property(b => b.Pais)
-                .IsRequired()
-                .HasMaxLength(50);
-
-            builder
-                .Property(b => b.EnderecoCompleto)
-                .IsRequired()
-                .HasMaxLength(100);
-
-            builder
-                .Property(b => b.NumeroEndereco)
-                .IsRequired();
-
-            
-            
+                .HasColumnType("datete");
+            builder.HasOne(v => v.User);
                 
-
-
-
-
+            builder.HasOne(w => w.FormaPagamento);
         }
     }
 }
