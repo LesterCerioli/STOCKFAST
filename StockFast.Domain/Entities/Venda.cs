@@ -19,10 +19,12 @@ namespace StockFast.Domain.Entities
         public string Pais { get; set; }
         public string EnderecoCompleto { get; set; }
         public int NumeroEndereco { get; set; }
+        public string UF { get; set; }
 
         public int FormaPagamentoId { get; set; }
+        public int MyProperty { get; set; }
         public virtual FormaPagamento FormaPagamento { get; set; }
-        public virtual ICollection<ItemVenda> ItemVendas { get; set; }
+        
 
 
 

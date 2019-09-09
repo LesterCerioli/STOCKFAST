@@ -12,6 +12,12 @@ namespace StockFast.Repository.Config
         public void Configure(EntityTypeBuilder<ItemVenda> builder)
         {
             builder.HasKey(k => k.Id);
+            builder
+                .Property(k => k.ProdutoId)
+                .IsRequired();
+            builder
+                .Property(k => k.Quantidade)
+                .IsRequired();
         }
     }
 }

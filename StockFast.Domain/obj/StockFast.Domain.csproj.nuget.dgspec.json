@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {}
+    "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
+    "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
+        "projectUniqueName": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
         "projectName": "StockFast.Domain",
-        "projectPath": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
+        "projectPath": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\obj\\",
+        "outputPath": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

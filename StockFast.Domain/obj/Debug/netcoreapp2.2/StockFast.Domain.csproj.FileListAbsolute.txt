@@ -85,3 +85,12 @@ C:\Users\Administrator\source\repos\LesterCerioli\STOCKFAST\StockFast.Domain\obj
 C:\Users\Administrator\source\repos\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.dll
 C:\Users\Administrator\source\repos\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.pdb
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.deps.json
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.dll
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\bin\Debug\netcoreapp2.2\StockFast.Domain.pdb
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csprojAssemblyReference.cache
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.csproj.CoreCompileInputs.cache
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfoInputs.cache
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.AssemblyInfo.cs
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.dll
+Z:\LesterCerioli\STOCKFAST\StockFast.Domain\obj\Debug\netcoreapp2.2\StockFast.Domain.pdb
