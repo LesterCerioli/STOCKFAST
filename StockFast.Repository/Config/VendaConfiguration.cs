@@ -43,6 +43,7 @@ namespace StockFast.Repository.Config
                 .HasColumnType("varchar");
                 
             builder.HasOne(v => v.FormaPagamento);
+            builder.HasMany(v => v.ItensVenda);
             
         }
     }
