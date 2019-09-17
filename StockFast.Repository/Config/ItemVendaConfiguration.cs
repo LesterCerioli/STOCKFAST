@@ -18,6 +18,9 @@ namespace StockFast.Repository.Config
             builder
                 .Property(k => k.Quantidade)
                 .IsRequired();
+            builder
+                .HasMany(k => k.Vendas);
+                
         }
     }
 }

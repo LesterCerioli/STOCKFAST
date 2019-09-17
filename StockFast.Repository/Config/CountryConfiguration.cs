@@ -25,6 +25,9 @@ namespace StockFast.Repository.Config
                 .Property(c => c.Ativo)
                 .IsRequired()
                 .HasColumnType("bool");
+            builder
+                .HasMany(c => c.States);
+
         }
 
     }

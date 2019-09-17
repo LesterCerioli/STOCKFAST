@@ -22,6 +22,13 @@ namespace StockFast.Repository.Config
                 .Property(u => u.QuantidadeEstoque)
                 .HasColumnType("int")
                 .IsRequired();
+            builder.HasMany(u => u.ProductBrands);
+            builder.HasMany(u => u.Products);
+            builder.HasMany(u => u.Meansurement_Units);
+            builder.HasMany(u => u.ExitProducts);
+            builder.HasMany(u => u.ProductEntries);
+            builder.HasMany(u => u.ItemVendas);
+
 
 
 

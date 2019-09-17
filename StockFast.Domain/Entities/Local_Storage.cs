@@ -9,6 +9,11 @@ namespace StockFast.Domain.Entities
         public int Id { get; set; }
         public string Nome { get; set; }
         public bool Ativo { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<Country> Countries { get; set; }
+        public virtual ICollection<State> States { get; set; }
+        public virtual ICollection<City> Cities { get; set; }
+
 
         public override void Validate()
         {

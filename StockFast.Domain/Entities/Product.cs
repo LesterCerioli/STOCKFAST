@@ -19,12 +19,14 @@ namespace StockFast.Domain.Entities
         public int LocalStorageId { get; set; }
         public bool Ativo { get; set; }
         public string Imagem { get; set; }
-        public ICollection<ProductBrand> ProductBrandsMyProperty { get; set; }
-        public ICollection<ProductGroup> ProductGroups { get; set; }
-        public ICollection<Provider> Providers { get; set; }
-        public ICollection<State> States { get; set; }
-        public ICollection<Country> Countries { get; set; }
-        public ICollection<City> Cities { get; set; }
+        public virtual ICollection<ProductBrand> ProductBrands { get; set; }
+        public virtual ICollection<ProductGroup> ProductGroups { get; set; }
+        public virtual ICollection<Provider> Providers { get; set; }
+        public virtual ICollection<State> States { get; set; }
+        public virtual ICollection<Country> Countries { get; set; }
+        public virtual ICollection<City> Cities { get; set; }
+        public virtual ICollection<ProductEntry> GetProductEntries { get; set; }
+        public virtual ICollection<ExitProduct> ExitProducts { get; set; }
 
         public override void Validate()
         {

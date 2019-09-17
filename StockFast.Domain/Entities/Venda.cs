@@ -22,7 +22,7 @@ namespace StockFast.Domain.Entities
         public string UF { get; set; }
 
         public int FormaPagamentoId { get; set; }
-        public ICollection<ItemVenda> ItemVendas { get; set; }
+        public virtual ICollection<ItemVenda> ItemVendas { get; set; }
         public virtual FormaPagamento FormaPagamento { get; set; }
         
 

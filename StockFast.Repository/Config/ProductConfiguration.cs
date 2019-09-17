@@ -12,6 +12,16 @@ namespace StockFast.Repository.Config
         public void Configure(EntityTypeBuilder<Product> builder)
         {
             builder.HasKey(o => o.Id);
+            builder
+                .HasMany(o => o.Providers);
+            builder.HasMany(o => o.ProductGroups);
+            builder.HasMany(o => o.ProductBrands);
+            builder.HasMany(o => o.GetProductEntries);
+            builder.HasMany(o => o.ExitProducts);
+
+
+                
+
         }
     }
 }

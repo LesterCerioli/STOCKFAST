@@ -11,6 +11,8 @@ namespace StockFast.Domain.Entities
         public DateTime Data { get; set; }
         public int  ProductId { get; set; }
         public int Qauntidade { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<StockInventory> StockInventories { get; set; }
 
         public override void Validate()
         {

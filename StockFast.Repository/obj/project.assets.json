@@ -4772,11 +4772,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
       "projectName": "StockFast.Repository",
-      "projectPath": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\StockFast.Repository.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -4797,8 +4797,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
-              "projectPath": "Z:\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj"
+            "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\source\\repos\\LesterCerioli\\STOCKFAST\\StockFast.Domain\\StockFast.Domain.csproj"
             }
           }
         }
