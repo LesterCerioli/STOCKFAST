@@ -10,11 +10,11 @@ namespace StockFast.Repository
     {
         public StockUser()
         {
-            var userRepository = new UserRepository();
+            //var userRepository = new UserRepository();
             var product = new Product();
-            var user = new UserRepository();
+            //var user = new UserRepository();
 
-            userRepository.Adicionar(user);
+            //userRepository.Adicionar(user);
 
             
         }

@@ -7,7 +7,7 @@ namespace StockFast.Domain.Entities
 {
     public abstract class Entity
     {
-        public List<string> _mensagensValidacao { get; set; }
+        private List<string> _mensagensValidacao { get; set; }
         private List<string> MensagemValidacao
         {
             get { return _mensagensValidacao ?? (_mensagensValidacao = new List<string> ()); }

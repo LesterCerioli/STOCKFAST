@@ -11,7 +11,27 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<StockInventory> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(u => u.Id);
+            builder
+                .Property(u => u.Data)
+                .IsRequired()
+                .HasColumnType("datetime");
+            builder.HasMany(o => o.Products);
+            builder.HasMany(o => o.ProductBrands);
+            builder
+                .Property(u => u.QuantidadeEstoque)
+                .HasColumnType("int")
+                .IsRequired();
+            builder.HasMany(u => u.ProductBrands);
+            builder.HasMany(u => u.Products);
+            builder.HasMany(u => u.Meansurement_Units);
+            builder.HasMany(u => u.ExitProducts);
+            builder.HasMany(u => u.ProductEntries);
+            builder.HasMany(u => u.ItemVendas);
+
+
+
+
         }
     }
 }

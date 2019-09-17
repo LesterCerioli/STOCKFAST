@@ -1,6 +1,7 @@
 ﻿using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
 using StockFast.Domain.Entities;
+using StockFast.Domain.ObjetodeValor;
 using StockFast.Repository.Config;
 using System;
 using System.Collections.Generic;
@@ -30,6 +31,7 @@ namespace StockFast.Repository.Context
         public DbSet<UserProfile> UserProfiles { get; set; }
         public DbSet<Venda> Vendas { get; set; }
         public DbSet<ItemVenda> ItemVendas { get; set; }
+        public DbSet<FormaPagamento> FormaPagamento { get; set; }
 
         public StockFastContext(DbContextOptions options) : base(options)
         {
@@ -38,7 +40,7 @@ namespace StockFast.Repository.Context
         {
             //mapping classes
             modelBuilder.ApplyConfiguration(new UserConfiguration());
-            modelBuilder.ApplyConfiguration(new UserProfile());
+            modelBuilder.ApplyConfiguration(new UserProfileConfiguration());
             modelBuilder.ApplyConfiguration(new VendaConfiguration());
             modelBuilder.ApplyConfiguration(new StockInventoryConfiguration());
             modelBuilder.ApplyConfiguration(new StateConfiguration());
@@ -55,6 +57,8 @@ namespace StockFast.Repository.Context
             modelBuilder.ApplyConfiguration(new ExitProductConfiguration());
             modelBuilder.ApplyConfiguration(new CountryConfiguration());
             modelBuilder.ApplyConfiguration(new CityConfiguration());
+            modelBuilder.ApplyConfiguration(new ProviderConfiguration());
+
 
 
 

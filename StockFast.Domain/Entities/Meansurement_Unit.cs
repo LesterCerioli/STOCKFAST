@@ -10,6 +10,11 @@ namespace StockFast.Domain.Entities
         public string Nome { get; set; }
         public string Sigla { get; set; }
         public bool Ativo { get; set; }
+        
+        public virtual ICollection<StockInventory> StockInventories { get; set; }
+        public virtual ICollection<ProductEntry> ProductEntries { get; set; }
+        public virtual ICollection<ExitProduct> ExitProducts { get; set; }
+        public virtual ICollection<Provider> Providers { get; set; }
 
         public override void Validate()
         {

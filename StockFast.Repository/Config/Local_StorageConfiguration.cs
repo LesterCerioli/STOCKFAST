@@ -11,7 +11,11 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Local_Storage> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(l => l.Id);
+            builder.HasMany(l => l.Products);
+            builder.HasMany(l => l.Countries);
+            builder.HasMany(l => l.Cities);
+            builder.HasMany(l => l.States);
         }
     }
 }

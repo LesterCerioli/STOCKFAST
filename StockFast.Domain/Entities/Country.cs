@@ -10,6 +10,7 @@ namespace StockFast.Domain.Entities
         public string Nome { get; set; }
         public string Codigo { get; set; }
         public bool Ativo { get; set; }
+        public virtual ICollection<State> States { get; set; }
 
         public override void Validate()
         {

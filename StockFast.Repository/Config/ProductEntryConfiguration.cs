@@ -11,7 +11,11 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<ProductEntry> builder)
         {
-            throw new NotImplementedException();
-        }
+            builder.HasKey(p => p.Id);
+            builder.HasMany(p => p.StockInventories);
+            builder.HasMany(p => p.Products);
+
+
+    }
     }
 }

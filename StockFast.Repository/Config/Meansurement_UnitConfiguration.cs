@@ -10,8 +10,13 @@ namespace StockFast.Repository.Config
     public class Meansurement_UnitConfiguration : IEntityTypeConfiguration<Meansurement_Unit>
     {
         public void Configure(EntityTypeBuilder<Meansurement_Unit> builder)
+
         {
-            throw new NotImplementedException();
+            builder.HasKey(m => m.Id);
+            builder.HasMany(m => m.StockInventories);
+            builder.HasMany(m => m.ProductEntries);
+            builder.HasMany(m => m.ExitProducts);
+            builder.HasMany(m => m.Providers);
         }
     }
 }

@@ -11,6 +11,8 @@ namespace StockFast.Domain.Entities
         public string UF { get; set; }
         public bool Ativo { get; set; }
         public int CountryId { get; set; }
+        public virtual ICollection<Country> Countries { get; set; }
+        public virtual ICollection<City> Cities { get; set; }
 
         public override void Validate()
         {

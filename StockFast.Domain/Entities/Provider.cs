@@ -8,7 +8,7 @@ namespace StockFast.Domain.Entities
     {
         public int Id { get; set; }
         public string Nome { get; set; }
-        public string RazqaoSocial { get; set; }
+        public string RazaoSocial { get; set; }
         public int NumeroDocumento { get; set; }
         public int Tipo { get; set; }
         public string Telefone { get; set; }
@@ -21,8 +21,8 @@ namespace StockFast.Domain.Entities
         public int StateId { get; set; }
         public int CityId { get; set; }
         public bool Ativo { get; set; }
-        public ICollection<Product> Products { get; set; }
-        public ICollection<ProductBrand> ProductBrands { get; set; }
+        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<ProductBrand> ProductBrands { get; set; }
 
         public override void Validate()
         {

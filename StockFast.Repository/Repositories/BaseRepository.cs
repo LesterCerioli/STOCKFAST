@@ -8,7 +8,7 @@ namespace StockFast.Repository.Repositories
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
 
-        public BaseRepository()
+        public BaseRepository(Context.StockFastContext stockFastContext)
         {
 
         }

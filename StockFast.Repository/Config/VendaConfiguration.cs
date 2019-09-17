@@ -11,51 +11,40 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<Venda> builder)
         {
-            builder.HasKey(b => b.Id);
+            builder.HasKey(v => v.Id);
+
             builder
-                .Property(b => b.DataVenda)
+                .Property(v => v.DataVenda)
                 .IsRequired();
-            builder.HasKey(b => b.UsuarioId);
             builder
-                .Property(b => b.DataPrevisaoEntrega)
+                .Property(v => v.DataPrevisaoEntrega)
                 .IsRequired();
-
             builder
-                .Property(b => b.CEP)
+                .Property(v => v.CEP)
                 .IsRequired()
-                .HasMaxLength(15);
-
+                .HasMaxLength(10);
             builder
-                .Property(b => b.Estado)
-                .IsRequired()
-                .HasMaxLength(2);
-
-            builder
-                .Property(b => b.Cidade)
-                .IsRequired()
-                .HasMaxLength(45);
-
-            builder
-                .Property(b => b.Pais)
-                .IsRequired()
-                .HasMaxLength(50);
-
-            builder
-                .Property(b => b.EnderecoCompleto)
+                .Property(v => v.Estado)
                 .IsRequired()
                 .HasMaxLength(100);
-
             builder
-                .Property(b => b.NumeroEndereco)
-                .IsRequired();
-
-            
-            
+                .Property(v => v.Cidade)
+                .IsRequired()
+                .HasMaxLength(100);
+            builder
+                .Property(v => v.Pais)
+                .IsRequired()
+                .HasColumnType("varchar")
+                .HasMaxLength(100);
+            builder
+                .Property(v => v.UF)
+                .IsRequired()
+                .HasMaxLength(2)
+                .HasColumnType("varchar");
                 
-
-
-
-
+            builder.HasOne(v => v.FormaPagamento);
+            builder.HasMany(v => v.ItensVenda);
+            
         }
     }
 }

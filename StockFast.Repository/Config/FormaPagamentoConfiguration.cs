@@ -11,7 +11,15 @@ namespace StockFast.Repository.Config
     {
         public void Configure(EntityTypeBuilder<FormaPagamento> builder)
         {
-            throw new NotImplementedException();
+            builder.HasKey(w => w.Id);
+            builder
+                .Property(w => w.Nome)
+                .IsRequired()
+                .HasMaxLength(50);
+            builder
+                .Property(w => w.Descricao)
+                .IsRequired()
+                .HasMaxLength(100);
         }
     }
 }

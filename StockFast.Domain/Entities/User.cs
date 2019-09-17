@@ -11,7 +11,8 @@ namespace StockFast.Domain.Entities
         public string Senha { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
-        public ICollection<UserProfile> UserProfiles { get; set; }
+        public virtual ICollection<UserProfile> UserProfiles { get; set; }
+        public virtual ICollection<Venda> Vendas { get; set; }
 
         public override void Validate()
         {
